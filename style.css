@@ -512,3 +512,8 @@ html, body {
         font-size: 0.9rem;
     }
 }
+@media(max-width: 430px){
+    header #eng{
+        margin-top: 30rem;
+    }
+}
