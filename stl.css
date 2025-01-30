@@ -8,8 +8,14 @@ footer h1{
 header ul #eng{
     margin-left: 685px;
 }
-@media (max-width: 1010px){
+
+@media (max-width: 1100px){
     header ul #eng{
-        margin-right: 685px;
+        margin-left: 640px;
+    }
+}
+@media (max-width: 1099px){
+    header ul #eng{
+        margin-right: 650px;
     }
 }

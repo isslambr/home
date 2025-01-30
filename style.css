@@ -304,7 +304,7 @@ header #eng{
     font-size: 1.2rem;
     transition: 0.5s;
     position: absolute;
-    margin-left: 38.8rem;
+    margin-left: 38.6rem;
     margin-top: 21px;
 }
 header #eng:hover{
@@ -413,7 +413,7 @@ html, body {
         padding-left: 10px;
     }
     header #eng{
-        margin-right: 39rem;
+        margin-right: 38.5rem;
         margin-top: 24.5rem;
         font-size: 1.6rem;
     }
@@ -576,5 +576,10 @@ html, body {
     }
     header #eng{
         margin-top: 25rem;
+    }
+}
+@media (max-width: 1100px){
+    header ul #eng{
+        margin-left: 620px;
     }
 }

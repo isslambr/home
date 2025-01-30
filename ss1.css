@@ -3,6 +3,11 @@
 *{
     font-family: "Rubik", serif;
 }
+.main{
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
 #story #story-1{
     background-color: #1a1a1abb;
     height: auto;
@@ -12,11 +17,11 @@
 }
 #story #story-1 p{
     font-size: 1.5rem;
+    width: 100rem;
 }
 #story{
-    background: linear-gradient(to left, rgb(10, 10, 10) , rgb(56, 55, 55) , rgb(10, 10, 10) )no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
+    transform: scale(0.59);
+    margin-top: 100px;
 }
 @media (max-width: 1010px){
     .title-main{
@@ -26,5 +31,13 @@
         background-color: transparent;
         box-shadow: none;
         max-height: 100vh;
+    }
+    #story #story-1 p{
+        font-size: 1.5rem;
+        width: auto;
+    }
+    #story{
+        transform: scale(1);
+        margin-top: 0px;
     }
 }
